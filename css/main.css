@@ -1,0 +1,345 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Glory&display=swap");
+
+:root {
+  /* site pallete */
+  --primaryCol: #04724d;
+  --lightPrimCol: #06d6a0;
+  --secondaryCol: #394053;
+  --tertiaryCol: #e5eee1;
+  --quartenaryCol: #888;
+  --white: #fff;
+  /* Googlefonts */
+  --fontOne: "Glory", sans-serif;
+  /* fontSize */
+  font-size: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+#bg-banner {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.3),
+      rgba(35, 21, 21, 0.65)
+    ),
+    url("../images/bgImage.jpg") center/cover no-repeat;
+  background-position-y: -10px;
+  width: 100%;
+  height: 350px;
+}
+.sitename {
+  color: var(--white);
+  float: right;
+  padding: 120px 130px;
+  font-size: 2.25rem;
+}
+#sitenameApp {
+  letter-spacing: 5px;
+  font-family: var(--fontOne);
+}
+#sitenameApp:hover {
+  color: var(--lightPrimCol);
+  transition: color 1s ease;
+}
+#subscribeSMS {
+  color: var(--lightPrimCol);
+  font-size: 0.9rem;
+  font-family: var(--fontOne);
+  margin-top: 1rem;
+}
+.siteNewsLetter {
+  margin-top: 10px;
+}
+.siteNewsLetter input[type="text"] {
+  height: 1.4rem;
+  width: 10rem;
+  border: 0;
+  color: var(--primaryCol);
+  font-size: 0.7rem;
+  padding: 2px 50px;
+}
+.subscribeButton {
+  font-family: var(--fontOne);
+  color: var(--white);
+  padding: 2px 3px;
+  height: 1.4rem;
+  font-size: 0.75rem;
+  background-color: var(--primaryCol);
+  width: 100px;
+  letter-spacing: 2px;
+  border: 0;
+}
+.subscribeButton:hover {
+  transition: background-color 0.5s ease-out;
+  background-color: var(--lightPrimCol);
+}
+.content {
+  width: 100%;
+  margin: 20px 0px;
+  height: auto;
+  display: inline-block;
+}
+.mainContent {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.courses {
+  font-family: var(--fontOne);
+  font-size: 1.5rem;
+  color: var(--primaryCol);
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.codingLang {
+  width: 230px;
+  height: 300px;
+  float: left;
+  /* background-color: red; */
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.langLogo {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+.langNames {
+  color: var(--primaryCol);
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1em;
+  font-family: var(--fontOne);
+  font-weight: bold;
+}
+.langLogo > img {
+  width: 100px;
+  height: 100px;
+}
+.langExp {
+  font-size: 0.8rem;
+  padding-top: 5px;
+  color: var(--primaryCol);
+  line-height: 1rem;
+  text-align: center;
+  font-family: var(--fontOne);
+}
+.langButtonContainer {
+  text-align: center;
+  margin-top: 15px;
+}
+.langButton {
+  font-family: var(--fontOne);
+  color: var(--white);
+  padding: 10px 5px;
+  background-color: var(--primaryCol);
+  width: 100px;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  border: 0;
+}
+.langButton:hover {
+  background-color: var(--lightPrimCol);
+}
+.box-1 {
+  margin-left: calc((100% - 1230px) / 2);
+}
+.box-2,
+.box-3,
+.box-4,
+.box-5 {
+  margin-left: 20px;
+}
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5 {
+  margin-top: 20px;
+}
+.contentBlockTwo {
+  width: 100%;
+  height: 400px;
+  padding-top: 20px;
+  overflow: hidden;
+  background-color: var(--tertiaryCol);
+}
+.content-Block-Headers,
+.content-Block-Message {
+  text-align: center;
+  padding-top: 20px;
+}
+.content-Block-Message {
+  font-size: 0.85rem;
+  padding-top: 30px;
+  width: 75%;
+  margin: 2px auto;
+}
+#companyHistory {
+  font-family: var(--fontOne);
+  color: var(--primaryCol);
+}
+#register {
+  font-size: 1.5rem !important;
+}
+.underline {
+  width: 150px;
+  height: 1px;
+  margin: 10px auto;
+  background-color: var(--primaryCol);
+}
+.underline-mini {
+  width: 75px;
+  height: 1px;
+  margin: 10px auto;
+  background-color: var(--primaryCol);
+}
+.companyDetails,
+.contactInfo {
+  float: left;
+  width: 30%;
+}
+.contactInfoBlock {
+  width: 60%;
+  margin: 5px auto;
+}
+.contactInfoBlockContent {
+  width: 100%;
+  margin-top: 1rem;
+}
+.contactWay {
+  font-family: var(--fontOne);
+  font-weight: 10px;
+}
+.formContent {
+  width: 40%;
+  float: right;
+  text-align: center;
+}
+.divider {
+  width: 2px !important;
+  float: left;
+  height: 400px;
+  background-color: white;
+  margin-right: 0.5rem;
+  margin-top: 0 !important;
+}
+.divider-bottom {
+  width: 100%;
+  height: 2px !important;
+  background-color: white;
+  margin-top: 1rem;
+  visibility: hidden;
+}
+#formDetails {
+  width: 100%;
+  padding-top: 1rem;
+}
+.registerDetails {
+  width: 65%;
+  margin: auto;
+}
+.registerDetails input[type="text"] {
+  height: 1rem;
+  margin-bottom: 10px;
+  padding: 0.75rem;
+  width: 100%;
+}
+#formDetails textarea {
+  margin: 10px auto 0px;
+  width: 70%;
+  padding: 20px 0px 0px 10px;
+  font-family: var(--fontOne);
+  display: block;
+  font-size: 0.75rem;
+}
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: var(--primaryCol);
+  margin: 60px 0px 0px;
+  text-align: center;
+  padding-top: 20px;
+}
+.copyrightSMS {
+  color: var(--white);
+  font-family: var(--fontOne);
+  font-size: 1.1rem;
+}
+/* icons */
+.fa-database,
+.fa-info {
+  font-size: 1.5rem;
+  color: var(--primaryCol);
+  margin-top: 0.5rem;
+}
+.fa-database:hover,
+.fa-info:hover {
+  color: var(--lightPrimCol);
+}
+.fa-envelope,
+.fa-mobile-alt,
+.fa-map-marker,
+.fa-inbox,
+.contactWay {
+  color: var(--primaryCol);
+  font-size: 0.75rem;
+}
+.fa-envelope,
+.fa-mobile-alt,
+.fa-map-marker,
+.fa-inbox {
+  margin-right: 2px;
+}
+
+@media screen and (max-width: 480px) {
+  .sitename {
+    padding: 75px 20px 0px;
+  }
+  #bg-banner {
+    background-position-y: 0px;
+    text-align: center;
+  }
+  .content {
+    display: block;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .box-1 {
+    margin-left: 0px;
+  }
+  .box-1,
+  .box-2,
+  .box-3,
+  .box-4,
+  .box-5 {
+    margin-left: calc((100% - 230px) / 2);
+  }
+  .contentBlockTwo {
+    display: block;
+    height: auto;
+  }
+  .companyDetails,
+  .contactInfo {
+    width: 100%;
+  }
+  .divider {
+    visibility: hidden;
+  }
+  .divider-bottom {
+    visibility: visible !important;
+  }
+  .formContent {
+    width: 100%;
+  }
+.formContent .content-Block-Headers{
+  padding-top:0px !important;
+  margin-top:0px !important;
+}
+}
